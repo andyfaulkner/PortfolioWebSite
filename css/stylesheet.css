@@ -3,13 +3,21 @@ body {
 }
 
 h1 {
-    font-size: 950%;
-    color: #d2d5c3;
+    color: #ffffff;
+    opacity: 1;
 }
 
 .italTitle {
     font-style: italic;
     font-weight: bold;
-    font-size: 550%;
-    color: #d2d5c3;
+    font-size: 400%;
+    color: #ffffff;
+}
+
+.bg-block-override {
+    background-color: #648ba4;
+}
+
+.textColour {
+    color: #536a7d;
 }
