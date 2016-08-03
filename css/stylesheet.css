@@ -7,8 +7,14 @@ h1 {
     opacity: 1;
 }
 
+
+
 .blockPadding {
     padding: 0px 20px 0px 20px;
+}
+
+.bulletPadding {
+    padding-left: 20px
 }
 
 .italTitle {
@@ -24,6 +30,17 @@ h1 {
 
 .textColour {
     color: #536a7d;
+}
+
+.aboutStyling {
+    color: #536a7d;
+    font-size: 16px;
+}
+
+.projectPopUpStyling {
+    color: #536a7d;
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
 }
 
 .textColourWhite {
@@ -87,7 +104,8 @@ form .row:first-child .floating-label-form-group {
 .img-circle {
     border-radius: 100%;
 }
-.img-circle {
+
+.img-circleborder {
     border-radius: 3px;
     border-color: #536a7d;
     border-style: solid;
@@ -104,6 +122,7 @@ form .row:first-child .floating-label-form-group {
     position: relative;
     width: 100%;
 }
+
 .img-circle {
     border-radius: 100%;
 }
@@ -129,7 +148,8 @@ form .row:first-child .floating-label-form-group {
   overflow: hidden;
   top: 0;
   left: 0;
-  background-color: rgba(100,139,164,0.6);
+    padding: 0px 20px 0px 20px;
+  background-color: rgba(100,139,164,0.9);
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transform: translate(460px, -100px) rotate(180deg);
@@ -322,7 +342,7 @@ form .row:first-child .floating-label-form-group {
 }
 .timeline-footer {
     padding: 5px 15px;
-    background-color:#f4f4f4;
+    background-color:#cfdbe3;
     color: #536a7d;
 }
 .timeline-footer p { margin-bottom: 0; }

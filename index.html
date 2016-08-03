@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Andy Faulkner">
 
     <title>Andy Faulkner - C# &amp; ASP.Net Developer</title>
 
@@ -41,25 +41,22 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$ ( "#menu-close").click();>Andy Faulkner</a>
+                <a href="#top" onclick= $("#menu-close").click();>Andy Faulkner</a>
             </li>
             <li>
-                <a href="#top" onclick=$ ( "#menu-close").click();>Home</a>
+                <a href="#about" onclick= $("#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#about" onclick=$ ( "#menu-close").click();>About</a>
+                <a href="#services" onclick= $("#menu-close").click();>Skills</a>
             </li>
             <li>
-                <a href="#services" onclick=$ ( "#menu-close").click();>Skills</a>
+                <a href="#portfolio" onclick= $("#menu-close").click();>Projects</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$ ( "#menu-close").click();>Projects</a>
+                <a href="#workHistory" onclick= $("#menu-close").click();>Work History</a>
             </li>
             <li>
-                <a href="#workHistory" onclick=$ ( "#menu-close").click();>Work History</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$ ( "#menu-close").click();>Contact</a>
+                <a href="#contact" onclick= $("#menu-close").click();>Contact</a>
             </li>
         </ul>
     </nav>
@@ -80,19 +77,23 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="textColour">About Me</h2>
+                     <hr class="small">
                     <br>
                 </div>
             </div>
             <!-- /.row -->
     <div class="row">
         <div class="col-lg-6">
-            <p class="lead textColour text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent posuere dolor id dolor blandit vestibulum. Suspendisse vitae risus at ex dapibus pellentesque non in nisi. Duis commodo fermentum enim eget dignissim. Morbi at interdum magna. Aenean efficitur tortor vitae massa aliquet, vel iaculis sapien finibus. Maecenas interdum semper commodo. Sed at placerat neque. Nullam sit amet odio vitae felis porta feugiat. Donec venenatis finibus volutpat. Vivamus quis eros consequat, molestie est in, tincidunt est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eleifend metus et nisl vehicula, nec venenatis dolor lacinia. Aenean pretium quam nec varius aliquam. Praesent ut tristique mauris. Curabitur tempor luctus nisl, porttitor tincidunt est facilisis eu.</p>
+            <p class="aboutStyling text-left">I’m a friendly and passionate developer who always looks to be creative and innovative in any projects I’m involved in. With a background from being involved in the early days of the web industry and then developing interactive Flash based software for training and development, I’m now looking to move towards backend development using C# and ASP.Net.</p>
+            <p class="aboutStyling">I’m a huge believer that you never stop learning and have recently self-funded myself through the Just IT Developer Professional course. This has reignited my passion for development and taught me a lot about modern programming and development which I’m now looking to use to build my career.</p>
+            <p class="aboutStyling">Though primarily looking towards developing in C#, I also have a keen interest in cross-platform technologies and always look towards finding the best solution, whether this be developing solutions for business based projects or programming for fun at home, I like to find elegant solutions to any problems I come across.</p>
+            <p class="aboutStyling">When I’m not coding I have a keen interest in modern art and design, enjoy visiting museums and exhibitions and like to attend gigs and festivals whenever possible. I also grew up on a farm so enjoy getting back to nature sometimes whether that’s on foot or on my bike.</p>
         </div>
         <div class="col-lg-1">
         </div>
         <div class="col-md-5">
             <br>
-            <div  class="ratio img-responsive img-circle" style="background-image: url(img/andy.jpg);"></div>
+            <div  class="ratio img-responsive img-circle img-circleborder" style="background-image: url(img/andy.jpg);"></div>
             
         </div>
 </div>
@@ -108,57 +109,61 @@
                 <div class="col-lg-10 col-lg-offset-1">
                     <h2>My Skills</h2>
                     <hr class="small">
+                    <br>
+                    
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-sm-2">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa- fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>C#</strong>
-                                </h4>
+                                <div  class="ratio img-responsive img-circle hidden-xs" style="background-image: url(img/csharp.jpg);"></div>
+                                <h3>
+                                    C#
+                                </h3>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-sm-2">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>ASP.Net</strong>
-                                </h4>
+                                <div  class="ratio img-responsive img-circle hidden-xs" style="background-image: url(img/asp.jpg);"></div>
+                                <h3>
+                                    ASP.Net
+                                </h3>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-sm-2">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-html5 fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>HTML 5.0</strong>
-                                </h4>
+                                <div  class="ratio img-responsive img-circle hidden-xs" style="background-image: url(img/java.jpg);"></div>
+                                <h3>
+                                    Java
+                                </h3>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-sm-2">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-css3 fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>CSS 3</strong>
-                                </h4>
+                                <div  class="ratio img-responsive img-circle hidden-xs" style="background-image: url(img/bootstrp.jpg);"></div>
+                                <h3>
+                                    Bootstrap
+                                </h3>
                             </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="service-item">
+                                <div  class="ratio img-responsive img-circle hidden-xs" style="background-image: url(img/html5.jpg);"></div>
+                                <h3>
+                                    HTML 5.0
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="service-item">
+                                <div  class="ratio img-responsive img-circle hidden-xs" style="background-image: url(img/javascript.jpg);"></div>
+                                <h3>
+                                    Javascript
+                                </h3>
+                            </div>
+                        </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
                 </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
@@ -180,6 +185,7 @@
                     <h2 class="textColour">Projects</h2>
                     <hr class="small">
                     <div class="row">
+<!--
                         <div class="col-md-6">
                             <div class="portfolio-item hovereffect">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" alt="">
@@ -190,36 +196,146 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        
+-->
+                         <div class="col-md-6">
                             <div class="portfolio-item hovereffect">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg" alt="">
                                 <div class="overlay">
-                                   <h3 class="textColourWhite">Project 2</h3>
-                                    <p class="textColourWhite">Test description to be written in full once the project is done.</p>
-                                   <a class="info" href="#">Coming Soon!</a>
+                                   <h3 class="textColourWhite">RPO Depot Application</h3>
+                                    <p class="textColourWhite text-left hidden-xs">An ecommerce platform based around the book Ready Player One by Ernest Cline. I wanted to use what I’d learned with C# and ASP.Net MVC to create this project and demonstrate some database usage within my projects.</p>
+                                    <button type="button" class="btn btn-light" data-toggle="modal" data-target=".project2overlay">More info</button>
                                 </div>
                             </div>
                         </div>
+                        <div class="modal fade project2overlay" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content text-left projectPopUpStyling">
+                                    <br>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h2 class="text-center">RPO Depot Application Project</h2>
+                                    <br />
+                                    <h3>Original Idea</h3>
+                                    <p>An ecommerce platform based around the book Ready Player One by Ernest Cline. I wanted to use what I’d learned with C# and ASP.Net MVC to create this project and demonstrate some database usage within my projects.</p>
+                                    <h3>Technologies Used</h3>
+                                    <ul>
+                                        <li>ASP.Net MVC</li>
+                                        <li>C#</li>
+                                        <li>SQL</li>
+                                        <li>Bootstrap</li>
+                                        <li>HTML 5</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                    <h3>What I Learnt From This Project</h3>
+                                    <p>I really felt that this project gave me a better understanding of how the whole Model View Controller idea of programming works. I really enjoyed developing the system and getting it to a stage where I could have the orders sent via email. I now feel a lot more comfortable with MVC now and also understand how the system works in ASP.Net. I also feel that I’ve got very good at debugging in ASP.Net during this project and have been able to quickly find and fix bugs from the stack trace.
+                                    </p>
+                                    <h3>Issues I Faced</h3>
+                                    <p>With this project the main issues I faced were of my own doing as I spent a lot of time trying different approaches to MVC and took the time to understand how the code first approach works and how you can easily expand on projects written this way. Though I could have done this in a quicker and easier way I do feel that learning this standard and the experimenting this way gave me a really good platform to expand my knowledge of the concept.
+                                    </p>
+                                    <h3>What I Would Do To Expand This Concept</h3>
+                                    <p>Currently the system is only taking the orders and sending them by email so the first expansion would be to build a customer section where people could register and track their orders. From here I would like to build more of the backend system as to how those orders would be handled and shown alongside an accounting system to show volume of sales across the site.
+                                    </p>
+                                    <p>This really is more of a proof of concept system built to show my ability within C# ASP.Net MVC and if this system was to become a full system handling customers, payments and orders then I would expand it a great deal so that it could be fully adaptable to any businesses ecommerce needs.</p>
+                                    <br>
+                                    <div class="text-center">
+                                        <a class="btn btn-dark" href="http://rpo.andy-faulkner.uk/" target="_blank" role="button">Open Project</a>
+                                        <a class="btn btn-dark" href="#" target="_blank" role="button">View Code</a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="col-md-6">
                             <div class="portfolio-item hovereffect">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg" alt="">
                                 <div class="overlay">
-                                   <h3 class="textColourWhite">Project 3</h3>
-                                    <p class="textColourWhite">Test description to be written in full once the project is done.</p>
-                                   <a class="info" href="#">Coming Soon!</a>
+                                   <h3 class="textColourWhite">Holiday Booking Application</h3>
+                                    <p class="textColourWhite text-left hidden-xs">A web application to allow people to request holidays from work and then display the data to the calendar showing which days have been booked out already. This also dynamically creates a list of the booked holidays which can be removed and then automatically updates the calendar.</p>
+                                    <button type="button" class="btn btn-light" data-toggle="modal" data-target=".project3overlay">More info</button>
                                 </div>
                             </div>
                         </div>
+                        <div class="modal fade project3overlay" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content text-left projectPopUpStyling">
+                                    <br>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h2 class="text-center">Booking Application Project</h2>
+                                    <br />
+                                    <h3>Original Idea</h3>
+                                    <p>To create a web application to allow people to request holidays from work and then display the data to the calendar showing which days have been booked out already. This also dynamically creates a list of the booked holidays which can be removed and then automatically updates the calendar.</p>
+                                    <h3>Technologies Used</h3>
+                                    <ul>
+                                        <li>ASP.Net Web-forms</li>
+                                        <li>C#</li>
+                                        <li>Bootstrap</li>
+                                        <li>HTML 5</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                    <h3>What I Learnt From This Project</h3>
+                                    <p>Being new to ASP.Net I felt that I really learned a lot about what the technology is capable of, ways to implement my ideas but also the limitations of creating dynamic content in ASP.Net. This really helped me to push myself to overcome the issues I faced in implementing my ideas and because of that I felt that I learnt a lot about the technology.
+                                    </p>
+                                    <h3>Issues I Faced</h3>
+                                    <p>When I first started this project the idea was to include multiple users with different colours representing the different departments inside the company so that an admin style account could be created that showed absence by department and then holidays could be rejected to ensure that each department had the right availability of staff needed. I then discovered that using the default calendar in ASP.Net this wouldn’t be possible due to the limitations of the DayRender function using a basic table layout that wouldn’t support multiple background colours.</p>
+                                    <p>The biggest issue I faced during this project was in the way that ASP.Net uses dynamic controls. Even though they are very easy to create on the page the basic ASP.Net functionality doesn’t support returning values from dynamic controls using the default ASP.Net Web-forms controls. This meant that my dynamic list of holidays that had been booked would not return a value even if the checkbox was ticked. I overcame this issue by using the CheckBoxList class object and OOP principles to create the list as objects and then show them on the page.
+                                    </p>
+                                    <p>This then caused a display issue when adding and removing the items to the list and would cause multiple instances of each item to show. This was resolved by having to completely remove the CheckBoxList object from the page and then re-adding it each time the method is called which I don’t feel this is a very elegant with of resolving the issue.
+                                    </p>
+                                    <h3>What I Would Do To Expand This Concept</h3>
+                                    <p>Going forward with this project I would look to implement a database to store the data and also look to either build a better calendar myself that would support multiple events or utilise one of the open source calendars that are available. This would require a full redesign of the project and at this point I would look to increase the scope more towards a full HR administration system.
+                                    </p>
+                                    <br>
+                                    <div class="text-center">
+                                        <a class="btn btn-dark" href="http://holidaybooking.andy-faulkner.uk/" target="_blank" role="button">Open Project</a>
+                                        <a class="btn btn-dark" href="https://github.com/andyfaulkner/PortfolioProjectOne" target="_blank" role="button">View Code</a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        
                         <div class="col-md-6">
                             <div class="portfolio-item hovereffect">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" alt="">
                                 <div class="overlay">
-                                   <h3 class="textColourWhite">Project 4</h3>
-                                    <p class="textColourWhite">Test description to be written in full once the project is done.</p>
-                                   <a class="info" href="#">Coming Soon!</a>
+                                   <h3 class="textColourWhite">Banking Code Project</h3>
+                                    <p class="textColourWhite text-left hidden-xs">This is a compliance based project that I built in Flash for GE Money. The original brief was to create an interactive way to present the information that every operative needed to read before a certain date to comply with the banking code regulations. I designed and built this in Flash so it could be completed via the company intranet and then there was an SQL string that sent the operatives ID and date of completion to a database.</p>
+                                    <button type="button" class="btn btn-light" data-toggle="modal" data-target=".project4overlay">More info</button>
                                 </div>
                             </div>
                         </div>
+                        <div class="modal fade project4overlay" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content text-left projectPopUpStyling">
+                                    <br>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h2 class="text-center">Banking Code Project</h2>
+                                    <br />
+                                    <h3>Original Brief</h3>
+                                    <p>This is a compliance based project that I built in Flash for GE Money. The original brief was to create an interactive way to present the information that every operative needed to read before a certain date to comply with the banking code regulations. I designed and built this in Flash so it could be completed via the company intranet and then there was an SQL string that sent the operatives ID and date of completion to a database.</p>
+                                    <h3>Technologies Used</h3>
+                                    <ul>
+                                        <li>Flash</li>
+                                        <li>Flash ActionScript</li>
+                                        <li>SQL</li>
+                                        <li>HTML</li>
+                                        <li>XML</li>
+                                    </ul>
+                                    <h3>Project Conclusions</h3>
+                                    <p>This was the first project of its kind that was built in house for GE Money and was very well received upon launching the live version. It was subsequently rolled out at to every site in the UK and India, and was successful in ensuring that the business was compliant by the necessary date.
+                                    </p>
+                                    <p>As the only developer on this project it was my responsibility to project manage, develop, test and brief the business on this project throughout the duration. For my work on this I received awards for innovation and project management.</p>
+                                    <br>
+                                    <div class="text-center">
+                                        <input class="btn btn-dark" type="button" name="B1" value="Open Project" onClick="bankingPopUp('http://andy-faulkner.uk/bankingcode/BankingCode.html','BankingCode','990','740','center','front');">
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                     <!-- /.row (nested) -->
                 </div>
@@ -248,13 +364,13 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Timeline Event</h4>
+                                    <h4>Just IT - Developer Professional Course</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+                                    <p>After realising that I wanted to move back into development I decided to engage with Just IT to help refresh my skills and also to learn new skills that are more viable in the current development environment. This has been a great experience and feel that it’s been a real boost  to both my confidence in development and also the skills and understanding I now have to further my career in this field.</p>
                                 </div>
                                 <div class="timeline-footer">
-                                    <p class="text-right">Feb-21-2014</p>
+                                    <p class="text-right textColour">2016</p>
                                 </div>
                             </div>
                         </li>
@@ -265,13 +381,16 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Timeline Event</h4>
+                                    <h4>Aquilium Ltd / CPIP Ltd - Database Developer / IT Consultant</h4>
                                 </div>
-                                <div class="timeline-body">
-                                    <p>Stranguillione in deinde cepit roseo commendavit patris super color est se sed. Virginis plus plorantes abscederem assignato ipsum ait regem Ardalio nos filiae Hellenicus mihi cum. Theophilo litore in lucem in modo invenit quasi nomen magni ergo est se est Apollonius, habet clementiae venit ad nomine sed dominum depressit filia navem.</p>
+                                <div class="timeline-body bulletPadding">
+                                    <ul>
+                                        <li>Providing continuing IT consultancy services to a company specialising in research, facilitate, travel, sport and epicurean information and photography with the goal of creating marketing, media, and referral opportunities.</li>
+                                        <li>Developing contact databases and advising on the IT infrastructure for a business specialising in creating, protecting and managing wealth.</li>
+                                    </ul>
                                 </div>
                                 <div class="timeline-footer">
-                                    <p class="text-right">Feb-23-2014</p>
+                                    <p class="text-right textColour">2012 - 2016</p>
                                 </div>
                             </div>
                         </li>
@@ -282,13 +401,18 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Timeline Event</h4>
+                                    <h4>Boat-Haulage.co.uk - IT Administration and Implementation</h4>
                                 </div>
-                                <div class="timeline-body">
-                                    <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens.</p>
+                                <div class="timeline-body bulletPadding">
+                                    <ul>
+                                        <li>Purchased and installed up to date IT equipment and a faster more reliable network</li>
+                                        <li>Created a web presence and standardised all commonly used documents and invoicing system</li>
+                                        <li>Organised and quoted for transport across the UK and Europe for both private and military boats</li>
+                                        <li>Acted as first point of contact for any issues that arose with the transport arrangements</li>
+                                    </ul>
                                 </div>
                                 <div class="timeline-footer">
-                                    <p class="text-right">Feb-23-2014</p>
+                                    <p class="text-right textColour">2006 - 2012</p>
                                 </div>
                             </div>
                         </li>
@@ -299,13 +423,17 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Timeline Event</h4>
+                                    <h4>GE Capital - Technical Designer</h4>
                                 </div>
-                                <div class="timeline-body">
-                                    <p>Volvitur ingreditur id ait mea vero cum autem quod ait Cumque ego illum vero cum unde beata. Commendavi si non dum est in. Dionysiadem tuos ratio puella ut casus, tunc lacrimas effunditis magister cives Tharsis. Puellae addita verbaque' capellam sanctissima quid, apollinem existimas filiam rex cum autem quod tamen adnuente rediens eam est se in. Peracta licet ad nomine Maria non ait in modo compungi mulierem volutpat.</p>
+                                <div class="timeline-body bulletPadding">
+                                    <ul>
+                                        <li>Designed and built the first in-house interactive training courses including launching the first ever paperless training course when the company opened a new call centre in Newcastle</li>
+                                        <li>Represented the company by working with an external consultant to write and develop a sales training solution which then due to its success in the UK was rolled out worldwide to all new frontline sales representatives</li>
+                                        <li>Developed interactive compliance training to meet banking regulations and digitally track that all staff had completed the training before the date that the changes came in to place</li>
+                                    </ul>
                                 </div>
                                 <div class="timeline-footer">
-                                    <p class="text-right">Feb-27-2014</p>
+                                    <p class="text-right textColour">2003 - 2006</p>
                                 </div>
                             </div>
                         </li>
@@ -316,13 +444,18 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Timeline Event</h4>
+                                    <h4>Trinity Mirror plc - Web Designer</h4>
                                 </div>
-                                <div class="timeline-body">
-                                    <p>Adfertur guttae sapientiae ducitur est Apollonius ut a a his domino Lycoridem in lucem. Theophile atque bona dei cenam veniebant est cum. Iusto opes mihi Tyrum in modo compungi mulierem ubi augue eiusdem ordo quos vero diam omni catervis famulorum. Bene dictis ut diem finito servis unde.</p>
+                                <div class="timeline-body bulletPadding">
+                                    <ul>
+                                        <li>Commercial work for clients of TMD which included the design their web sites, Flash intro's and advertising banners to fit their marketing strategy</li>
+                                        <li>In-house work included promotional advertisements to fit with the IC branding, web design and promotional spots for the regional newspapers (Liverpool Echo, Daily Post and the Chester Chronicle Series)</li>
+                                        <li>Developed interactive Flash movies for the regional portals (icLiverpool.co.uk, icCheshireOnline.co.uk, icHuddersfield.co.uk and icNorthWales.co.uk), which were also adapted by other regions for use on their sites.</li>
+                                        <li>Trained in the Shop Creator e-commerce system that was selected as the company's solution for all e-commerce sites</li>
+                                    </ul>
                                 </div>
                                 <div class="timeline-footer">
-                                    <p class="text-right">Mar-01-2014</p>
+                                    <p class="text-right textColour">2001 - 2002</p>
                                 </div>
                             </div>
                         </li>
@@ -333,13 +466,18 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Timeline Event</h4>
+                                    <h4>Surface Transforms plc - IT Support Technician</h4>
                                 </div>
-                                <div class="timeline-body">
-                                    <p>Crede respiciens loco dedit beneficio ad suis alteri si puella eius in. Acceptis codicello lenonem in deinde plectrum anni ipsa quod eam est Apollonius.</p>
+                                <div class="timeline-body bulletPadding">
+                                    <ul>
+                                        <li>Designed and built the factory network to support the early development of the compound</li>
+                                        <li>Implemented a drop and replace feature due to dust problems inside the factory so that the computers could be quickly replaced with limited downtime and to the same specifications to limit the impact on testing parameters</li>
+                                        <li>Upgraded and maintained the server and computers in the head office</li>
+                                        <li>Redesigned and built the company web presence ready for the company to float on the stock market.</li>
+                                    </ul>
                                 </div>
                                 <div class="timeline-footer primary">
-                                    <p class="text-right">Mar-02-2014</p>
+                                    <p class="text-right textColour">1999 - 2001</p>
                                 </div>
                             </div>
                         </li>
@@ -363,6 +501,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -400,6 +539,7 @@
                             </div>
                         </div>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -412,7 +552,7 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <ul class="list-inline">
                         <li>
-                            <a href="https://uk.linkedin.com/in/andy-faulkner-b645a89a"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            <a href="https://uk.linkedin.com/in/andy-faulkner-b645a89a" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                         <li>
                             <a href="mailto:andy@andy-faulkner.uk"><i class="fa fa-envelope-o fa-fw fa-3x"></i></a>
@@ -488,12 +628,28 @@
     });
     </script>
     
+    <script LANGUAGE='JAVASCRIPT' TYPE='TEXT/JAVASCRIPT'>
+        var bankingPopUpWindow=null;
+        function bankingPopUp(mypage,myname,w,h,pos,infocus){
+
+        if (pos == 'random')
+        {LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+        else
+        {LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
+        settings='width='+ w + ',height='+ h + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=no,location=yes,directories=no,status=no,menubar=no,toolbar=no,resizable=no';bankingPopUpWindow=window.open('',myname,settings);
+        if(infocus=='front'){bankingPopUpWindow.focus();bankingPopUpWindow.location=mypage;}
+        if(infocus=='back'){bankingPopUpWindow.blur();bankingPopUpWindow.location=mypage;bankingPopUpWindow.blur();}
+
+        }
+// -->
+</script>
+    
       <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
         
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="mail/contact_me.js"></script>
 
 </body>
 
